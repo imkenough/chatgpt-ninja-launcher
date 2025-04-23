@@ -1,12 +1,14 @@
 # ChatGPT Ninja Launcher
 
-A discreet, hotkey-activated ChatGPT launcher that runs from the system tray. Designed for focus, speed, and zero clutter — this tool gives you instant access to ChatGPT in a Chrome app window that hides when not in use and resumes exactly where you left off.
+**Formal**: A discreet, hotkey-activated ChatGPT launcher that runs from the system tray. Designed for focus, speed, and zero clutter — this tool gives you instant access to ChatGPT in a Chrome app window that hides when not in use and resumes exactly where you left off.
+
+**Informal**: Launches ChatGPT in a clean Chrome window that doesn’t show on the taskbar. Lives quietly in your system tray. Summon it with a hotkey, hide it instantly with Alt+Tab. Great for multitasking… or, you know, if some teacher walks by. 😉
 
 ## Features
 
 - Launches ChatGPT on startup, minimized and hidden from the taskbar
 - Keeps your ChatGPT session alive — no process termination
-- Hotkey activated (`Ctrl + Shift + Space`) for quick access
+- Hotkey activated (`Ctrl + Shift + Space`)* for quick access          _*editable_
 - Auto-hides on focus loss or Alt+Tab
 - Packaged as a standalone executable using PyInstaller
 
