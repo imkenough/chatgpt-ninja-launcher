@@ -1,0 +1,26 @@
+# ⛔ Virtual environment
+.venv/
+
+# 📦 PyInstaller build artifacts
+build/
+dist/
+specs/
+# *.spec
+# build.py
+
+# 🐍 Python bytecode
+__pycache__/
+*.py[cod]
+
+# 📄 Logs and misc
+*.log
+version.txt
+
+# 🙈 OS junk files
+.DS_Store
+Thumbs.db
+
+#icons
+# *.ico
+# *.png
+
