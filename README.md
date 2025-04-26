@@ -21,6 +21,18 @@ The app quietly runs from the system tray, providing quick access to ChatGPT wit
 
 ## Installation
 
+#### Prefer not to mess with the code?
+[Download](https://github.com/imkenough/chatgpt-ninja-launcher/releases/latest) the latest release .exe 
+
+### Clone the Repository
+First, clone the repository:
+
+```bash
+git clone https://github.com/imkenough/chatgpt-ninja-launcher
+cd chatgpt-ninja-launcher
+```
+
+
 ### Prerequisites
 - **Python 3.8+** (only if running from source)
 - **Google Chrome** installed at:
@@ -31,11 +43,11 @@ The app quietly runs from the system tray, providing quick access to ChatGPT wit
 ### Python Dependencies
 Install required libraries:
 ```bash
-pip install pystray pillow pywin32 keyboard
+pip install -r requirements.txt
 ```
 or
 ```bash
-pip install -r requirements.txt
+pip install pystray pillow pywin32 keyboard
 ```
 
 
@@ -79,7 +91,8 @@ The final executable will be available in the `/dist` directory, named based on 
 ├── appCnl.py          # Main application script
 ├── build.py           # Build script for generating the EXE
 ├── version.txt        # Version information
-├── icon.ico           # (Optional) Icon for system tray
+├── icon.png           # (Optional) Icon for system tray
+├── icon.ico           # (Optional) Icon for the exe
 ├── dist/              # Output folder for built executable
 ├── specs/             # PyInstaller spec files
 ```
